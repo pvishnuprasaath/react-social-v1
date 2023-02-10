@@ -38,7 +38,8 @@ Click to play gif
 - For Server
 
   - `npm install` to get all the dependencies
-  - Install MySQL workbench and create a schema named 'social'. /assets/social_db.sql is uploaded for easy schema import
+  - Install MySQL workbench and create a schema named 'social'.
+  - [/assets/social_db.sql](https://github.com/pvishnuprasaath/react-social-v1/blob/master/assets/social_db.sql) is uploaded for easy schema import
   - Express is configured to run at localhost:8800. Client makes axios request here. Modify both client and server port if needed
   - provide mysql connection credentials in api/connect.js
   - `npm run start` will spin up the server
